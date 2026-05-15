@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Tracker · About</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">📚 Study Tracker</div>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/courses">Courses</a></li>
+            <li><a href="/goals">Study Goals</a></li>
+            <li><a href="/habits">Daily Habits</a></li>
+            <li><a href="/about" class="active">About</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <section class="page-section">
+            <h1>About Study Tracker</h1>
+            <p>
+                Study Tracker is a small Go web application I built as my own end-to-end
+                DevOps practice project. It runs locally first, and from there I'm
+                taking it through every step of the modern DevOps workflow — Docker,
+                Kubernetes, Helm, GitHub Actions, and Argo CD.
+            </p>
+            <p style="margin-top: 1rem;">
+                Built with the Go standard library — no frameworks, just <code>net/http</code> and
+                <code>html/template</code>.
+            </p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Study Tracker · Built with Go</p>
+    </footer>
+</body>
+
+</html>
