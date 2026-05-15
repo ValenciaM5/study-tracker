@@ -1,7 +1,7 @@
 # Study Tracker
 
 A small Go web app for tracking courses, goals, and daily habits.
-Built as an end-to-end DevOps practice project.
+Built as an end-to-end DevOps project.
 
 ## Run locally
 
